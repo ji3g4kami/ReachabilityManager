@@ -10,6 +10,7 @@
 		146DB23A23C30F72005A7BEC /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DB23923C30F72005A7BEC /* MulticastDelegate.swift */; };
 		146DB23C23C30F7C005A7BEC /* NotificationCenter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DB23B23C30F7C005A7BEC /* NotificationCenter+Extension.swift */; };
 		146DB24023C3138A005A7BEC /* ReachabilityManager.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 146DB23F23C3138A005A7BEC /* ReachabilityManager.podspec */; };
+		14DC376923C42A87000C26A5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 14DC376823C42A87000C26A5 /* README.md */; };
 		409F5716214B4BBE00B85A0D /* ReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 409F5714214B4BBE00B85A0D /* ReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		409F574B214B6D2000B85A0D /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409F574A214B6D2000B85A0D /* ReachabilityManager.swift */; };
 		58849CE7F733C29E2F57084D /* Pods_ReachabilityManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945196E70E7B14D68981BC34 /* Pods_ReachabilityManager.framework */; };
@@ -22,6 +23,7 @@
 		146DB26023C31779005A7BEC /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		146DB26323C317BC005A7BEC /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		146DB29F23C32062005A7BEC /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14DC376823C42A87000C26A5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		409F5711214B4BBE00B85A0D /* ReachabilityManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReachabilityManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		409F5714214B4BBE00B85A0D /* ReachabilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReachabilityManager.h; sourceTree = "<group>"; };
 		409F5715214B4BBE00B85A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 		409F5707214B4BBE00B85A0D = {
 			isa = PBXGroup;
 			children = (
+				14DC376823C42A87000C26A5 /* README.md */,
 				146DB23F23C3138A005A7BEC /* ReachabilityManager.podspec */,
 				409F5713214B4BBE00B85A0D /* ReachabilityManager */,
 				409F5712214B4BBE00B85A0D /* Products */,
@@ -166,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14DC376923C42A87000C26A5 /* README.md in Resources */,
 				146DB24023C3138A005A7BEC /* ReachabilityManager.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
