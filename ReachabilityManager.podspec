@@ -9,7 +9,7 @@ s.summary = "Monitor connection and to implement the functions you wanted"
 s.requires_arc = true
 
 # 2
-s.version = "1.2.0"
+s.version = "1.0.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -21,7 +21,7 @@ s.author = { "吳登秝" => "ji3g4kami@gmail.com" }
 s.homepage = "https://github.com/ji3g4kami/ReachabilityManager"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/ji3g4kami/ReachabilityManager.git", 
+s.source = { :git => "https://github.com/ji3g4kami/ReachabilityManager.git",
              :tag => "#{s.version}" }
 
 # 7 - Frameworks, libraries and dependencies
